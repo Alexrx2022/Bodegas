@@ -1,0 +1,16 @@
+{
+    "name": "inventario/pagina",
+    "description": "Es una pagina web para un bodega",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "dev-master"
+    },
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "controllers/",
+            "models\\": "models/"
+        }
+    },
+    "minimum-stability": "dev"
+}
